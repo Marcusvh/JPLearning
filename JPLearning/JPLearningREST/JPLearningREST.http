@@ -1,0 +1,6 @@
+@JPLearningREST_HostAddress = http://localhost:5148
+
+GET {{JPLearningREST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
