@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using JPLearningLib.models;
+using Microsoft.EntityFrameworkCore;
 
 namespace JPLearningREST.Data
 {
@@ -6,6 +7,7 @@ namespace JPLearningREST.Data
     {
         public JPLearningDbContext(DbContextOptions<JPLearningDbContext> options) : base(options) { }
 
-        
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }

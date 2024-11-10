@@ -23,4 +23,8 @@
     <Folder Include="Managers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JPLearningLib\JPLearningLib.csproj" />
+  </ItemGroup>
+
 </Project>

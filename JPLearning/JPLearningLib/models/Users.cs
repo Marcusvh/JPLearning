@@ -1,9 +1,12 @@
-﻿namespace JPLearningLib.models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace JPLearningLib.models
 {
     public class Users
     {
         public Users() { }
 
+        [Key]
         public int UserId { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
