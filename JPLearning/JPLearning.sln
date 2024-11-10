@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JPLearningREST", "JPLearningREST\JPLearningREST.csproj", "{548E9C70-D389-4509-B103-609186752321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPLearningLib", "JPLearningLib\JPLearningLib.csproj", "{898E9DA2-ABE6-40E6-81B2-3C5377504EE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{548E9C70-D389-4509-B103-609186752321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548E9C70-D389-4509-B103-609186752321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548E9C70-D389-4509-B103-609186752321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548E9C70-D389-4509-B103-609186752321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898E9DA2-ABE6-40E6-81B2-3C5377504EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898E9DA2-ABE6-40E6-81B2-3C5377504EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898E9DA2-ABE6-40E6-81B2-3C5377504EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898E9DA2-ABE6-40E6-81B2-3C5377504EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB0FFC9-AC67-42CB-B516-440F0A763994}
+	EndGlobalSection
+EndGlobal
